@@ -45,7 +45,7 @@ public class Main {
         System.out.println("Ваша корзина:");
         System.out.println("Наименование товара | Цена/за.ед | Количество | Общая стоимость");
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < products.length; i++) {
             if (countProduct[i] != 0) {
                 System.out.println(products[i] + " | " + countProduct[i] + " | " + sum[i]);
             }
